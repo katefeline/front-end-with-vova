@@ -1,6 +1,6 @@
 //task1
 
-let user = {};
+let user = new Object();
 user.name = 'John';
 user.surname = 'Smith';
 
