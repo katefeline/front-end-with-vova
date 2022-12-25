@@ -2,9 +2,10 @@ const birthYear = +prompt('Enter the year you were born', '');
 let city;
 let favouriteSport;
 let information = '';
+let currentYear = new Date().getFullYear();
 
 if (birthYear) {
-    information += `So you were born in ${birthYear} \n`;
+    information += `So you were born in ${birthYear} \nYou are now ${currentYear - birthYear} years old.\n`;
     city = prompt('In what city do you live?', '');
     if (city) {
         if (city === 'Kyiv') {
