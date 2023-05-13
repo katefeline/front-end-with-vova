@@ -82,3 +82,4 @@ if (sumOfSides > theSmallestSide) {
 } else {
     console.log('This triangle cannot exit');
 }
+
